@@ -40,7 +40,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify7d295612dd1d4-staging-81311-deployment/amplify-cfn-templates/auth/amplifyreactgraphql34b6804e-cloudformation-template.json",
         "logicalId": "authamplifyreactgraphql34b6804e"
       },
-      "lastPushTimeStamp": "2023-08-24T08:24:11.539Z",
+      "lastPushTimeStamp": "2023-08-24T08:52:59.013Z",
       "output": {
         "UserPoolId": "eu-north-1_NamcnZqNB",
         "AppClientIDWeb": "41ora8ed4kk4h6lm2vmcmccptu",
@@ -51,6 +51,29 @@
         "UserPoolName": "amplifyreactgraphql34b6804e_userpool_34b6804e"
       },
       "lastPushDirHash": "wP84fTCirTgcq2I0XMKkIQ6zfpw="
+    }
+  },
+  "api": {
+    "amplifyreactgraphql": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify7d295612dd1d4-staging-81311-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiamplifyreactgraphql"
+      },
+      "lastPushTimeStamp": "2023-08-24T08:53:09.466Z"
     }
   }
 }
